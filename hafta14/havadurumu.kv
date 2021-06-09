@@ -1,0 +1,20 @@
+<RootWidget>:
+    txt_il:txt_il1
+    lbl_sonuc:lbl_sonuc1
+    BoxLayout:
+        orientation: "vertical"
+        BoxLayout:
+            Label:
+                text:"İl İsmi"
+            TextInput:
+                id:txt_il1
+        Button:
+            id:"btn_ara"
+            text:"Ara"
+            height:'15dp'
+            on_press:root.ara()
+        Label:
+            text:"Anlık Durum"
+        Label:
+            id:lbl_sonuc1
+            halign:"center"
